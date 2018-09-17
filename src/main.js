@@ -4,6 +4,8 @@ import React from "react";
 import Home from "./components/home/home";
 // Importantando o component Contact
 import Contact from "./components/contact/contact";
+//Importando a tela de sucesso do email
+import Success from "./components/success/success";
 // Importando os components necessárias da lib react-materialize
 import { Container } from 'react-materialize';
 // Importanto o component <Switch /> e <Route /> da nossa Lib de rotas
@@ -15,6 +17,7 @@ const Main = () => (
       <Switch>
         <Route exact path='/' component={Home}/>
         <Route path='/contact' component={Contact}/>
+        <Route path='/success' component={Success}/>
       </Switch>
     </Container>
   </main>  
