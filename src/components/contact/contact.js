@@ -14,11 +14,13 @@ const Contact = () => (
         <h5>Contact</h5>
         <Card>
           <Row>
+            <form netlify>
               <Input placeholder="lorem@ipsum.com" type="email" label="Email" s={12} />
               <Input placeholder="Lorem Ipsum..." label="Message" s={12} />
             <Col s={12} m={12}>
               <Button waves='light' className="deep-purple lighten-2">SEND</Button>
             </Col>
+            </form>
           </Row>
         </Card>
     </Col>
