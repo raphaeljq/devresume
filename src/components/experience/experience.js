@@ -12,7 +12,7 @@ const Experience = (props) => (
           { props.name }
         </Col>
 
-        <Col s={10} s={10}>
+        <Col s={10} m={10}>
           <p><b>{props.title} in <span className="deep-purple lighten-2 white-text">{props.company}</span> - <span>{props.periodo}</span></b></p>
           <p>{props.description}</p>
         </Col>
