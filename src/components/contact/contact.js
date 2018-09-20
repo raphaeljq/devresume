@@ -14,7 +14,7 @@ const Contact = () => (
         <h5>Contact</h5>
         <Card>
           <Row>
-            <form action="/success" name="contact" method="POST" data-netlify="true">
+            <form action="/success" name="contact" data-netlify="true">
               <Input placeholder="lorem@ipsum.com" type="email" label="Email" s={12} />
               <Input placeholder="Lorem Ipsum..." label="Message" s={12} />
             <Col s={12} m={12}>
