@@ -14,7 +14,10 @@ const UserProfile = () => (
       </Row>
       <Row className="center-align">
         <h5 >Raphael Chaves</h5>
-        <p className="deep-purple lighten-2 white-text ">Frontend Developer</p>
+        <p className="deep-purple lighten-2 white-text ">Desenvolvedor Full-Stack Pleno</p>
+        <p>Macapá/ap, Brasil</p>
+        <p><strong>Contratação disponível:</strong></p>
+        <span className="pink lighten-3 medal white-text">Emprego</span> <span className="pink lighten-3 medal white-text">Freelance</span>
       </Row>
   </Card>
 );
