@@ -104,6 +104,7 @@ const Home = () => (
               <SocialIcon url="http://facebook.com/raphaeljq" />
               <SocialIcon url="http://instagram.com/raphaeljq" />
               <SocialIcon url="http://www.linkedin.com/in/raphaeljq/" />
+              <SocialIcon url="http://www.github.com/raphaeljq" />
 
                 
               </CardPanel>
