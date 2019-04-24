@@ -15,8 +15,8 @@ const Contact = () => (
         <Card>
           <Row>
             <form action="/success" name="contact" method="POST" data-netlify="true">
-              <Input placeholder="lorem@ipsum.com" type="email" label="Email" s={12} />
-              <Input placeholder="Lorem Ipsum..." label="Message" s={12} />
+              <Input placeholder="yourname@yourcompany.com" type="email" label="Email" s={12} />
+              <Input placeholder="some message" label="Message" s={12} />
             <Col s={12} m={12}>
               <Button waves='light' type="submit" className="deep-purple lighten-2">SEND</Button>
             </Col>
