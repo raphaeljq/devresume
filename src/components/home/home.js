@@ -108,7 +108,6 @@ const Home = () => (
               <CardPanel className="indigo lighten-4 row">
                 
               <SocialIcon url="http://twitter.com/raphaeljq" />
-              <SocialIcon url="http://facebook.com/raphaeljq" />
               <SocialIcon url="http://instagram.com/raphaeljq" />
               <SocialIcon url="http://www.linkedin.com/in/raphaeljq/" />
               <SocialIcon url="http://www.github.com/raphaeljq" />
